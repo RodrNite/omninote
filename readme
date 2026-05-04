@@ -1,0 +1,41 @@
+# OmniNote - Automação de Testes
+
+Suíte de testes automatizados com Cypress para a plataforma OmniNote.
+
+## Tecnologias
+- Cypress
+- JavaScript
+
+## Como rodar localmente
+
+### Pré-requisitos
+- Node.js instalado
+- npm instalado
+
+## Configuração
+
+Renomeie o arquivo `cypress/fixtures/usuarios.example.json` 
+para `usuarios.json` e preencha com seus dados.
+
+### Instalação
+```bash
+npm install
+```
+
+### Executar os testes
+```bash
+# Interface visual
+npx cypress open
+
+# Terminal
+npx cypress run
+```
+
+## Estrutura
+```
+cypress/
+├── e2e/          # arquivos de teste
+├── fixtures/     # dados de teste
+└── support/
+    └── commands/ # custom commands
+```

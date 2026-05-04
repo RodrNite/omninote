@@ -1,0 +1,14 @@
+{
+  "paciente": {
+    "cpf": "SEU_CPF_AQUI",
+    "senha": "SUA_SENHA_AQUI",
+    "nome": "SEU_NOME_AQUI"
+  },
+  "profissional": {
+    "username": "SEU_USERNAME_AQUI",
+    "password": "SUA_SENHA_AQUI",
+    "nome": "SEU_NOME_AQUI"
+  }
+}
+
+//substirua os campos acima pelos dados de um paciente em fixtures
