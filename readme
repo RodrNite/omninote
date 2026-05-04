@@ -12,6 +12,11 @@ Suíte de testes automatizados com Cypress para a plataforma OmniNote.
 - Node.js instalado
 - npm instalado
 
+## Configuração
+
+Renomeie o arquivo `cypress/fixtures/usuarios.example.json` 
+para `usuarios.json` e preencha com seus dados.
+
 ### Instalação
 ```bash
 npm install
